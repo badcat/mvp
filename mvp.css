@@ -1,4 +1,4 @@
-/* MVP.css v1.0.1 - by Andy Brewer */
+/* MVP.css v1.0.2 - by Andy Brewer, BadCat */
 
 :root {
     --border-radius: 5px;
@@ -111,6 +111,10 @@ header a strong {
 
 header nav img {
     margin: 1rem 0;
+}
+
+figure img {
+    max-width: 100%;
 }
 
 section header {

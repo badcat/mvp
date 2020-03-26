@@ -15,7 +15,7 @@
 <body>
     <header>
         <nav>
-            <a href="https://andybrewer.github.io/mvp/"><img src="./img/logo.png" height="70"></a>
+            <a href="https://andybrewer.github.io/mvp/"><img src="./img/logo.png" height="70" alt="MVP logo"></a>
             <ul>
                 <li>Home</li>
                 <li><a href="#docs">Docs</a></li>
@@ -26,8 +26,7 @@
         <h1>A <u>minimalist</u> stylesheet for HTML elements</h1>
         <p><b>No class names, no frameworks,</b> just <em>semantic</em> HTML and <mark>you're done</mark>.</p>
         <br>
-        <p><a href="./quickstart.html.txt" target="_blank"><i>Quickstart Template &nearr;</i></a><a href="./mvp.css"
-                target="_blank"><b>Download MVP (6kb) &nearr;</b></a></p>
+        <p><a href="./quickstart.html.txt" target="_blank"><i>Quickstart Template &nearr;</i></a><a href="./mvp.css" target="_blank"><b>Download MVP (6kb) &nearr;</b></a></p>
     </header>
     <main>
         <hr>
@@ -37,7 +36,7 @@
                 <p>For a clean looking design that doesn't get in the way</p>
             </header>
             <aside>
-                <img src="./img/html.svg" height="150">
+                <img src="./img/html.svg" height="150" alt="">
                 <h3>HTML and You're Done</h3>
                 <p>MVP styles your root HTML elements, so you don't need to learn a new CSS framework or naming
                     conventions.</p>
@@ -45,14 +44,14 @@
                             &nearr;</em></a></p>
             </aside>
             <aside>
-                <img src="./img/mobile.svg" height="150">
+                <img src="./img/mobile.svg" height="150" alt="Mobile Friendly UI">
                 <h3>Mobile-friendly UI</h3>
                 <p>MVP is designed to look great on all browsers and devices out of the box for rapid prototyping.
                 </p>
                 <p>It's like an amped up CSS reset that you can toss into any project to get decent styling.</p>
             </aside>
             <aside>
-                <img src="./img/license.svg" height="150">
+                <img src="./img/license.svg" height="150" alt="MIT Licensed">
                 <h3>MIT License</h3>
                 <p>MVP is released under the permissive MIT license so you can freely use it however you'd like.</p>
                 <p>That means personal projects, commercial ventures, remixes and more are all welcome.</p>
@@ -61,10 +60,11 @@
         <hr>
         <section id="testimonials">
             <blockquote>
-                <img src="./img/icon-quote.svg" height="80"><br>
+                <h4>A Testimonial</h4>
+                <img src="./img/icon-quote.svg" height="80" alt=""><br>
                 "By far the easiest stylesheet I've ever used. It integrates easily into <s>one</s> all of my
                 startup&nbsp;projects."
-                <footer><img src="./img/brand.png" height="36"><br><br><i>- Andy Brewer, Author of MVP.css</i></footer>
+                <footer><img src="./img/brand.png" height="36" alt="MVP logo"><br><br><i>- Andy Brewer, Author of MVP.css</i></footer>
             </blockquote>
         </section>
         <hr>
@@ -127,7 +127,7 @@
                 <p>More building and less designing with "set and forget" styling.</p>
             </header>
             <figure>
-                <img src="./img/stock.jpg" alt="Stock photo" width="100%">
+                <img src="./img/stock.jpg" alt="Stock photo" width="1080">
                 <figcaption><i>"Uber for X" brainstorming session</i></figcaption>
             </figure>
         </div>
@@ -136,84 +136,94 @@
             <h2>Docs</h2>
             <h3 id="html">HTML Reference</h3>
             <aside>
-                <p>For a showcase of each styled element, check out the <a href="./quickstart.html.txt"
-                        target="_blank">quickstart template
+                <p>For a showcase of each styled element, check out the <a href="./quickstart.html.txt" target="_blank">quickstart template
                         &nearr;</a>.</p>
             </aside><br>
             <p>MVP.css automatically styles the following HTML elements:</p>
             <ul>
-                <li><code>&lt;a&gt;</code> <small>&mdash; text links</small></li>
-                <ul>
-                    <li><code>&lt;a&gt;&lt;b&gt;</code>, <code>&lt;a&gt;&lt;strong&gt;</code> <small>&mdash; solid link
-                            buttons</small>
-                    </li>
-                    <li><code>&lt;a&gt;&lt;em&gt;</code>, <code>&lt;a&gt;&lt;i&gt;</code> <small>&mdash; outlined link
-                            buttons</small>
-                    </li>
-                </ul>
-                <li><code>&lt;article&gt;</code> <small>&mdash; content area with normal styling</small></li>
-                <ul>
-                    <li><code>&lt;article&gt;&lt;aside&gt;</code> <small>&mdash; text callout</small>
-                    </li>
-                </ul>
-                <li><code>&lt;blockquote&gt;</code> <small>&mdash; quote callout</small></li>
-                <ul>
-                    <li><code>&lt;blockquote&gt;&lt;footer&gt;</code> <small>&mdash; quote attribution</small>
-                    </li>
-                </ul>
+                <li><code>&lt;a&gt;</code> <small>&mdash; text links</small>
+                    <ul>
+                        <li><code>&lt;a&gt;&lt;b&gt;</code>, <code>&lt;a&gt;&lt;strong&gt;</code> <small>&mdash; solid link
+                                buttons</small>
+                        </li>
+                        <li><code>&lt;a&gt;&lt;em&gt;</code>, <code>&lt;a&gt;&lt;i&gt;</code> <small>&mdash; outlined link
+                                buttons</small>
+                        </li>
+                    </ul>
+                </li>
+                <li><code>&lt;article&gt;</code> <small>&mdash; content area with normal styling</small>
+                    <ul>
+                        <li><code>&lt;article&gt;&lt;aside&gt;</code> <small>&mdash; text callout</small>
+                        </li>
+                    </ul>
+                </li>
+                <li><code>&lt;blockquote&gt;</code> <small>&mdash; quote callout</small>
+                    <ul>
+                        <li><code>&lt;blockquote&gt;&lt;footer&gt;</code> <small>&mdash; quote attribution</small>
+                        </li>
+                    </ul>
+                </li>
                 <li><code>&lt;body&gt;</code> <small>&mdash; default parent element</small></li>
                 <li><code>&lt;button&gt;</code> <small>&mdash; form buttons</small></li>
                 <li><code>&lt;code&gt;</code> <small>&mdash; inline code highlighting</small></li>
-                <li><code>&lt;figure&gt;</code> <small>&mdash; image callouts</small></li>
-                <ul>
-                    <li><code>&lt;figure&gt;&lt;figcaption&gt;</code> <small>&mdash; image callout captions</small></li>
-                </ul>
-                <li><code>&lt;footer&gt;</code> <small>&mdash; footer area</small></li>
-                <li><code>&lt;form&gt;</code> <small>&mdash; small form area</small></li>
-                <ul>
-                    <li><code>&lt;form&gt;&lt;input&gt;</code> <small>&mdash; short input field</small></li>
-                    <li><code>&lt;form&gt;&lt;label&gt;</code> <small>&mdash; form field labels</small></li>
-                    <li><code>&lt;form&gt;&lt;select&gt;</code> <small>&mdash; dropdown options container</small></li>
+                <li><code>&lt;figure&gt;</code> <small>&mdash; image callouts</small>
                     <ul>
-                        <li><code>&lt;form&gt;&lt;select&gt;&lt;option&gt;</code> <small>&mdash; dropdown option
-                                items</small></li>
+                        <li><code>&lt;figure&gt;&lt;figcaption&gt;</code> <small>&mdash; image callout captions</small></li>
                     </ul>
-                    <li><code>&lt;form&gt;&lt;textarea&gt;</code> <small>&mdash; large input field</small></li>
-                </ul>
+                </li>
+                <li><code>&lt;footer&gt;</code> <small>&mdash; footer area</small></li>
+                <li><code>&lt;form&gt;</code> <small>&mdash; small form area</small>
+                    <ul>
+                        <li><code>&lt;form&gt;&lt;input&gt;</code> <small>&mdash; short input field</small></li>
+                        <li><code>&lt;form&gt;&lt;label&gt;</code> <small>&mdash; form field labels</small></li>
+                        <li><code>&lt;form&gt;&lt;select&gt;</code> <small>&mdash; dropdown options container</small>
+                            <ul>
+                                <li><code>&lt;form&gt;&lt;select&gt;&lt;option&gt;</code> <small>&mdash; dropdown option
+                                        items</small></li>
+                            </ul>
+                        </li>
+                        <li><code>&lt;form&gt;&lt;textarea&gt;</code> <small>&mdash; large input field</small></li>
+                    </ul>
+                </li>
                 <li><code>&lt;header&gt;</code> <small>&mdash; content area with centered styling</small></li>
                 <li><code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>,
                     <code>&lt;h5&gt;</code>, <code>&lt;h6&gt;</code> <small>&mdash; headings</small></li>
                 <li><code>&lt;hr&gt;</code> <small>&mdash; horizontal rule (divider)</small></li>
                 <li><code>&lt;main&gt;</code> <small>&mdash; main content area</small></li>
                 <li><code>&lt;mark&gt;</code> <small>&mdash; text highlighting</small></li>
-                <li><code>&lt;nav&gt;</code> <small>&mdash; top navigation</small></li>
-                <ul>
-                    <li><code>&lt;nav&gt;&lt;ul&gt;</code> <small>&mdash; nav list container</small></li>
-                    <li><code>&lt;nav&gt;&lt;ul&gt;&lt;li&gt;</code> <small>&mdash; nav list items</small></li>
-                </ul>
-                <li><code>&lt;ol&gt;</code> <small>&mdash; numbered list container</small></li>
-                <ul>
-                    <li><code>&lt;ol&gt;&lt;li&gt;</code> <small>&mdash; numbered list items</small></li>
-                </ul>
+                <li><code>&lt;nav&gt;</code> <small>&mdash; top navigation</small>
+                    <ul>
+                        <li><code>&lt;nav&gt;&lt;ul&gt;</code> <small>&mdash; nav list container</small></li>
+                        <li><code>&lt;nav&gt;&lt;ul&gt;&lt;li&gt;</code> <small>&mdash; nav list items</small></li>
+                    </ul>
+                </li>
+                <li><code>&lt;ol&gt;</code> <small>&mdash; numbered list container</small>
+                    <ul>
+                        <li><code>&lt;ol&gt;&lt;li&gt;</code> <small>&mdash; numbered list items</small></li>
+                    </ul>
+                </li>
                 <li><code>&lt;p&gt;</code> <small>&mdash; paragraph tag</small></li>
                 <li><code>&lt;samp&gt;</code> <small>&mdash; large code blocks</small></li>
-                <li><code>&lt;section&gt;</code> <small>&mdash; content area for centered / special content</small></li>
-                <ul>
-                    <li><code>&lt;section&gt;&lt;aside&gt;</code> <small>&mdash; content card</small></li>
-                </ul>
+                <li><code>&lt;section&gt;</code> <small>&mdash; content area for centered / special content</small>
+                    <ul>
+                        <li><code>&lt;section&gt;&lt;aside&gt;</code> <small>&mdash; content card</small></li>
+                    </ul>
+                </li>
                 <li><code>&lt;small&gt;</code> <small>&mdash; smaller text</small></li>
                 <li><code>&lt;sup&gt;</code> <small>&mdash; raised text (notification bubbles)</small></li>
-                <li><code>&lt;table&gt;</code> <small>&mdash; data table</small></li>
-                <ul>
-                    <li><code>&lt;table&gt;&lt;td&gt;</code> <small>&mdash; data table cell</small></li>
-                    <li><code>&lt;table&gt;&lt;th&gt;</code> <small>&mdash; data table header cell</small></li>
-                    <li><code>&lt;table&gt;&lt;thead&gt;</code> <small>&mdash; data table header section</small></li>
-                    <li><code>&lt;table&gt;&lt;tr&gt;</code> <small>&mdash; data table row</small></li>
-                </ul>
-                <li><code>&lt;ul&gt;</code> <small>&mdash; unordered list container</small></li>
-                <ul>
-                    <li><code>&lt;ul&gt;&lt;li&gt;</code> <small>&mdash; unordered list item</small></li>
-                </ul>
+                <li><code>&lt;table&gt;</code> <small>&mdash; data table</small>
+                    <ul>
+                        <li><code>&lt;table&gt;&lt;td&gt;</code> <small>&mdash; data table cell</small></li>
+                        <li><code>&lt;table&gt;&lt;th&gt;</code> <small>&mdash; data table header cell</small></li>
+                        <li><code>&lt;table&gt;&lt;thead&gt;</code> <small>&mdash; data table header section</small></li>
+                        <li><code>&lt;table&gt;&lt;tr&gt;</code> <small>&mdash; data table row</small></li>
+                    </ul>
+                </li>
+                <li><code>&lt;ul&gt;</code> <small>&mdash; unordered list container</small>
+                    <ul>
+                        <li><code>&lt;ul&gt;&lt;li&gt;</code> <small>&mdash; unordered list item</small></li>
+                    </ul>
+                </li>
             </ul><br>
             <p><code>&lt;div&gt;</code> tags are left unstyled.</p>
             <br>
@@ -307,13 +317,13 @@
         <hr>
         <section id="ideas">
             <header>
-                <img src="./img/idea.svg" height="200">
+                <img src="./img/idea.svg" height="200" alt="Idea Lightbulb">
                 <h2>What can you build with MVP.css?</h2>
                 <p>Free ideas below &darr;</p>
             </header>
             <form>
                 <header>
-                    <img src="./img/brand.png" height="80">
+                    <img src="./img/brand.png" height="80" alt="MVP logo">
                 </header>
                 <label for="skill">A skill you have:</label>
                 <input type="text" id="skill" name="skill" size="28" placeholder="Your skill">
@@ -333,27 +343,26 @@
     </main>
     <footer>
         <hr>
-        <p>
-            Made by <a href="https://www.andybrewer.com" target="_blank">Andy Brewer
-                &nearr;</a><br>
-        </p>
+        <p>Made by <a href="https://www.andybrewer.com" target="_blank">Andy Brewer
+                &nearr;</a><br></p>
     </footer>
+    <script>
+        const companies = ["Amazon", "AirBnB", "Craisglist", "eBay", "Facebook", "Google", "Groupon", "Netflix", "PayPal", "Salesforce", "Spotify", "Twitter", "YouTube"];
+        const markets = ["advertising", "agriculture", "AI", "banking", "Big Data", "biotech", "construction", "consulting", "finance", "government", "health care", "HR", "insurance", "manufacturing", "pharmaceuticals", "real estate", "the cloud", "transportation"];
+
+        function newIdea() {
+            let company = companies[Math.floor(Math.random() * companies.length)];
+            let job = document.getElementById("job").value;
+            let market = markets[Math.floor(Math.random() * markets.length)];
+            let model = document.getElementById("model").value;
+            let skill = document.getElementById("skill").value;
+            let results = document.getElementById("results");
+            results.innerHTML = `<br><h3>Amazing Idea &mdash;</h3><p>A ${model} <mark><b>${company} for ${market}</b></mark>!<br>But with <u>${skill}</u> and a founder who has experience with <i>"${job}"</i>.</p>`;
+            return false;
+        }
+    </script>
 </body>
 
-<script lang="js">
-    const companies = ["Amazon", "AirBnB", "Craisglist", "eBay", "Facebook", "Google", "Groupon", "Netflix", "PayPal", "Salesforce", "Spotify", "Twitter", "YouTube"];
-    const markets = ["advertising", "agriculture", "AI", "banking", "Big Data", "biotech", "construction", "consulting", "finance", "government", "health care", "HR", "insurance", "manufacturing", "pharmaceuticals", "real estate", "the cloud", "transportation"];
 
-    function newIdea() {
-        let company = companies[Math.floor(Math.random() * companies.length)];
-        let job = document.getElementById("job").value;
-        let market = markets[Math.floor(Math.random() * markets.length)];
-        let model = document.getElementById("model").value;
-        let skill = document.getElementById("skill").value;
-        let results = document.getElementById("results");
-        results.innerHTML = `<br><h3>Amazing Idea &mdash;</h3><p>A ${model} <mark><b>${company} for ${market}</b></mark>!<br>But with <u>${skill}</u> and a founder who has experience with <i>"${job}"</i>.</p>`;
-        return false;
-    }
-</script>
 
 </html>

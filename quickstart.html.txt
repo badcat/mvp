@@ -17,7 +17,7 @@
 <body>
     <header>
         <nav>
-            <a href="/"><img src="https://via.placeholder.com/200x70?text=Logo" height="70"></a>
+            <a href="/"><img src="https://via.placeholder.com/200x70?text=Logo" height="70" alt="logo"></a>
             <ul>
                 <li>Menu Item 1</li>
                 <li><a href="#">Menu Item 2</a></li>
@@ -52,7 +52,7 @@
         <hr>
         <section>
             <blockquote>
-                "Quote"
+                <h3>"Quote"</h3>
                 <footer><i>- Attribution</i></footer>
             </blockquote>
         </section>
@@ -91,7 +91,7 @@
                 <li>List item 2</li>
             </ul>
             <figure>
-                <img src="https://via.placeholder.com/1080x500?text=Amazing+stock+photo" alt="Stock photo" width="100%">
+                <img src="https://via.placeholder.com/1080x500?text=Amazing+stock+photo" alt="Stock photo" width="1080">
                 <figcaption><i>Image caption</i></figcaption>
             </figure>
         </article>
